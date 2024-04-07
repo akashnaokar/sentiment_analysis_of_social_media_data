@@ -1,0 +1,4 @@
+defaults:
+  - paths/default
+  - files/default
+  - _self_
