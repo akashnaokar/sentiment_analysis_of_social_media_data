@@ -1,0 +1,47 @@
+# --------- pytorch --------- #
+# torch
+# torchvision
+# torchaudio
+# torchmetrics
+# lightning
+# --extra-index-url https://download.pytorch.org/whl/cu118 # change the version if needed
+# wheel
+# nvidia-cuda-runtime-cu11 # change the version if needed
+
+# --------- hydra --------- #
+hydra-core
+hydra-colorlog
+hydra-optuna-sweeper
+
+# --------- loggers --------- #
+# wandb
+# neptune-client
+# mlflow
+# comet-ml
+# aim>=3.16.2  # no lower than 3.16.2, see https://github.com/aimhubio/aim/issues/2550
+
+# --------- others --------- #
+rootutils       # standardizing the project root setup
+pre-commit      # hooks for applying linters on commit
+rich            # beautiful text formatting in terminal
+pytest          # tests
+# sh            # for running bash commands in some tests (linux/macos only)
+
+# --------- others --------- #
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+
+# --------- sentiment_analysis --------- #
+textblob
+tweepy
+nltk
+pycountry
+wordcloud
+Pillow
+langdetect
+
+
+
