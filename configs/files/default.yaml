@@ -1,3 +1,6 @@
 # File name of Dataset if zipped with extension
-dataset_name : z9zw7nt5h2-1.zip
+dataset_name : archive.zip
+raw_data_file: tweet_data.csv
+processed_data_file : processed_data.csv
+cleaned_data : cleaned_data.csv
 

@@ -1,19 +1,19 @@
 # path to root directory
 # this requires PROJECT_ROOT environment variable to exist
 # you can replace it with "." if you want the root to be the current working directory
-root_dir: F:\Coding\sentiment_analysis_of_social_media_data
+root_dir: ${hydra:runtime.cwd}
 
 # path to data directory
 data_dir: ${paths.root_dir}/data/
 
 # path to train data directory
-train_data_dir: ${paths.root_dir}/data/train
+raw_data_dir: ${paths.root_dir}/data/raw
 
 # path to train data directory
-val_data_dir: ${paths.root_dir}/data/valid
+processed_data_dir: ${paths.root_dir}/data/processed
 
-# path to train data directory
-test_data_dir: ${paths.root_dir}/data/test
+# # path to train data directory
+# test_data_dir: ${paths.root_dir}/data/test
 
 # path to logging directory
 log_dir: ${paths.root_dir}/logs/
